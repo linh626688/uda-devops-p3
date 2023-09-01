@@ -57,7 +57,7 @@ jobs:
           name: Run Playbook and Configure server
           command: |
             # Your command
-            ansible-playbook -i [inventory-file] [playbook-file]
+            ansible-playbook -i inventory main.yml
 
 # Sequential workflow
 workflows:
