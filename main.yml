@@ -1,7 +1,7 @@
 ---
 # Exercise for setting up a web server in an EC
 - name: Exercise for setting up a web server in an EC 
-  hosts: ubuntu
+  hosts: ec2-35-173-205-180.compute-1.amazonaws.com
   # Use the public IP if the VM is already created
   # hosts: 44.192.7.133
   user: ubuntu
